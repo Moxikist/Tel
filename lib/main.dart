@@ -21,13 +21,13 @@ void main() => runApp(MaterialApp(
     Navigator.push(
     context,
     MaterialPageRoute(
-    builder: (_) => ChatPage(name: contacts[index]),
+    builder: (context) => ChatPage(name: contacts[index]),
     ),
     );
     },
     );
     },
-    ),
+    )
     );
     }
     }
